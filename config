@@ -1,4 +1,4 @@
-"sh /usr/local/software/pycharm-2019.1.3/bin/pycharm.sh:pycharm:1"
+"sh /usr/local/pycharm-2019.2.1/bin/pycharm.sh:pycharm:1"
 "jupyter notebook:jupyter:1"
 "ss-local -c /home/conf_myself/shadowsocks.json:shadowsocks:1"
 "kolourpaint:KolourPaint:1"
