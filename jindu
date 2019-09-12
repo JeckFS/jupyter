@@ -1,74 +1,110 @@
  'https://JeckFS@github.com': 
-Counting objects: 28, done.
+Counting objects: 44, done.
 Delta compression using up to 8 threads.
-Compressing objects:   3%
- (1/28)   Compressing objects:   7%
- (2/28)   Compressing objects:  10%
- (3/28)   Compressing objects:  14%
- (4/28)   Compressing objects:  17%
- (5/28)   Compressing objects:  21%
- (6/28)   Compressing objects:  25%
- (7/28)   Compressing objects:  28%
- (8/28)   Compressing objects:  32%
- (9/28)   Compressing objects:  35%
- (10/28)   Compressing objects:  39%
- (11/28)   Compressing objects:  42%
- (12/28)   Compressing objects:  46%
- (13/28)   Compressing objects:  50%
- (14/28)   Compressing objects:  53%
- (15/28)   Compressing objects:  57%
- (16/28)   Compressing objects:  60%
- (17/28)   Compressing objects:  64%
- (18/28)   Compressing objects:  67%
- (19/28)   Compressing objects:  71%
- (20/28)   Compressing objects:  75%
- (21/28)   Compressing objects:  78%
- (22/28)   Compressing objects:  82%
- (23/28)   Compressing objects:  85%
- (24/28)   Compressing objects:  89%
- (25/28)   Compressing objects:  92%
- (26/28)   Compressing objects:  96%
- (27/28)   Compressing objects: 100%
- (28/28)   Compressing objects: 100%
- (28/28), done.
-Writing objects:   3%
- (1/28)   Writing objects:   7%
- (2/28)   Writing objects:  10%
- (3/28)   Writing objects:  14%
- (4/28)   Writing objects:  17%
- (5/28)   Writing objects:  21%
- (6/28)   Writing objects:  25%
- (7/28)   Writing objects:  28%
- (8/28)   Writing objects:  32%
- (9/28)   Writing objects:  32%
- (9/28), 1.05 MiB | 548.00 KiB/s   Writing objects:  35%
- (10/28), 1.05 MiB | 548.00 KiB/s   Writing objects:  39%
- (11/28), 1.42 MiB | 580.00 KiB/s   Writing objects:  39%
- (11/28), 1.73 MiB | 577.00 KiB/s   Writing objects:  42%
- (12/28), 1.73 MiB | 577.00 KiB/s   Writing objects:  46%
- (13/28), 1.73 MiB | 577.00 KiB/s   Writing objects:  50%
- (14/28), 2.06 MiB | 589.00 KiB/s   Writing objects:  50%
- (14/28), 2.42 MiB | 607.00 KiB/s   Writing objects:  53%
- (15/28), 2.42 MiB | 607.00 KiB/s   Writing objects:  57%
- (16/28), 2.73 MiB | 609.00 KiB/s   Writing objects:  57%
- (16/28), 3.11 MiB | 618.00 KiB/s   Writing objects:  60%
- (17/28), 3.11 MiB | 618.00 KiB/s   Writing objects:  64%
- (18/28), 3.48 MiB | 623.00 KiB/s   Writing objects:  64%
- (18/28), 3.86 MiB | 627.00 KiB/s   Writing objects:  67%
- (19/28), 3.86 MiB | 627.00 KiB/s   Writing objects:  71%
- (20/28), 4.17 MiB | 657.00 KiB/s   Writing objects:  71%
- (20/28), 4.48 MiB | 650.00 KiB/s   Writing objects:  75%
- (21/28), 4.48 MiB | 650.00 KiB/s   Writing objects:  78%
- (22/28), 4.48 MiB | 650.00 KiB/s   Writing objects:  82%
- (23/28), 4.86 MiB | 663.00 KiB/s   Writing objects:  85%
- (24/28), 5.17 MiB | 651.00 KiB/s   Writing objects:  89%
- (25/28), 5.17 MiB | 651.00 KiB/s   Writing objects:  92%
- (26/28), 5.17 MiB | 651.00 KiB/s   Writing objects:  96%
- (27/28), 5.17 MiB | 651.00 KiB/s   Writing objects:  96%
- (27/28), 5.54 MiB | 650.00 KiB/s   Writing objects: 100%
- (28/28), 5.54 MiB | 650.00 KiB/s   Writing objects: 100%
- (28/28), 5.72 MiB | 636.00 KiB/s, done.
-Total 28 (delta 6), reused 0 (delta 0)
+Compressing objects:   2%
+ (1/44)   Compressing objects:   4%
+ (2/44)   Compressing objects:   6%
+ (3/44)   Compressing objects:   9%
+ (4/44)   Compressing objects:  11%
+ (5/44)   Compressing objects:  13%
+ (6/44)   Compressing objects:  15%
+ (7/44)   Compressing objects:  18%
+ (8/44)   Compressing objects:  20%
+ (9/44)   Compressing objects:  22%
+ (10/44)   Compressing objects:  25%
+ (11/44)   Compressing objects:  27%
+ (12/44)   Compressing objects:  29%
+ (13/44)   Compressing objects:  31%
+ (14/44)   Compressing objects:  34%
+ (15/44)   Compressing objects:  36%
+ (16/44)   Compressing objects:  38%
+ (17/44)   Compressing objects:  40%
+ (18/44)   Compressing objects:  43%
+ (19/44)   Compressing objects:  45%
+ (20/44)   Compressing objects:  47%
+ (21/44)   Compressing objects:  50%
+ (22/44)   Compressing objects:  52%
+ (23/44)   Compressing objects:  54%
+ (24/44)   Compressing objects:  56%
+ (25/44)   Compressing objects:  59%
+ (26/44)   Compressing objects:  61%
+ (27/44)   Compressing objects:  63%
+ (28/44)   Compressing objects:  65%
+ (29/44)   Compressing objects:  68%
+ (30/44)   Compressing objects:  70%
+ (31/44)   Compressing objects:  72%
+ (32/44)   Compressing objects:  75%
+ (33/44)   Compressing objects:  77%
+ (34/44)   Compressing objects:  79%
+ (35/44)   Compressing objects:  81%
+ (36/44)   Compressing objects:  84%
+ (37/44)   Compressing objects:  86%
+ (38/44)   Compressing objects:  88%
+ (39/44)   Compressing objects:  90%
+ (40/44)   Compressing objects:  93%
+ (41/44)   Compressing objects:  95%
+ (42/44)   Compressing objects:  97%
+ (43/44)   Compressing objects: 100%
+ (44/44)   Compressing objects: 100%
+ (44/44), done.
+Writing objects:   2%
+ (1/44)   Writing objects:   4%
+ (2/44)   Writing objects:   6%
+ (3/44)   Writing objects:   9%
+ (4/44)   Writing objects:  11%
+ (5/44)   Writing objects:  15%
+ (7/44)   Writing objects:  18%
+ (8/44)   Writing objects:  20%
+ (9/44)   Writing objects:  22%
+ (10/44)   Writing objects:  25%
+ (11/44)   Writing objects:  25%
+ (11/44), 1.05 MiB | 546.00 KiB/s   Writing objects:  25%
+ (11/44), 1.42 MiB | 572.00 KiB/s   Writing objects:  27%
+ (12/44), 1.42 MiB | 572.00 KiB/s   Writing objects:  29%
+ (13/44), 1.42 MiB | 572.00 KiB/s   Writing objects:  29%
+ (13/44), 1.73 MiB | 579.00 KiB/s   Writing objects:  31%
+ (14/44), 1.92 MiB | 546.00 KiB/s   Writing objects:  31%
+ (14/44), 2.17 MiB | 541.00 KiB/s   Writing objects:  34%
+ (15/44), 2.17 MiB | 541.00 KiB/s   Writing objects:  34%
+ (15/44), 2.73 MiB | 532.00 KiB/s   Writing objects:  36%
+ (16/44), 2.73 MiB | 532.00 KiB/s   Writing objects:  36%
+ (16/44), 2.79 MiB | 476.00 KiB/s   Writing objects:  38%
+ (17/44), 2.79 MiB | 476.00 KiB/s   Writing objects:  40%
+ (18/44), 2.98 MiB | 438.00 KiB/s   Writing objects:  43%
+ (19/44), 3.23 MiB | 397.00 KiB/s   Writing objects:  43%
+ (19/44), 3.48 MiB | 379.00 KiB/s   Writing objects:  45%
+ (20/44), 3.73 MiB | 363.00 KiB/s   Writing objects:  47%
+ (21/44), 3.73 MiB | 363.00 KiB/s   Writing objects:  47%
+ (21/44), 4.05 MiB | 373.00 KiB/s   Writing objects:  50%
+ (22/44), 4.05 MiB | 373.00 KiB/s   Writing objects:  52%
+ (23/44), 4.30 MiB | 370.00 KiB/s   Writing objects:  54%
+ (24/44), 4.30 MiB | 370.00 KiB/s   Writing objects:  56%
+ (25/44), 4.61 MiB | 382.00 KiB/s   Writing objects:  56%
+ (25/44), 4.98 MiB | 394.00 KiB/s   Writing objects:  59%
+ (26/44), 4.98 MiB | 394.00 KiB/s   Writing objects:  61%
+ (27/44), 4.98 MiB | 394.00 KiB/s   Writing objects:  61%
+ (27/44), 5.67 MiB | 534.00 KiB/s   Writing objects:  63%
+ (28/44), 5.67 MiB | 534.00 KiB/s   Writing objects:  65%
+ (29/44), 6.05 MiB | 568.00 KiB/s   Writing objects:  68%
+ (30/44), 6.05 MiB | 568.00 KiB/s   Writing objects:  70%
+ (31/44), 6.67 MiB | 587.00 KiB/s   Writing objects:  72%
+ (32/44), 6.67 MiB | 587.00 KiB/s   Writing objects:  75%
+ (33/44), 6.98 MiB | 611.00 KiB/s   Writing objects:  77%
+ (34/44), 6.98 MiB | 611.00 KiB/s   Writing objects:  79%
+ (35/44), 7.30 MiB | 630.00 KiB/s   Writing objects:  81%
+ (36/44), 7.61 MiB | 630.00 KiB/s   Writing objects:  84%
+ (37/44), 7.61 MiB | 630.00 KiB/s   Writing objects:  84%
+ (37/44), 8.30 MiB | 632.00 KiB/s   Writing objects:  86%
+ (38/44), 8.30 MiB | 632.00 KiB/s   Writing objects:  88%
+ (39/44), 8.67 MiB | 637.00 KiB/s   Writing objects:  90%
+ (40/44), 8.67 MiB | 637.00 KiB/s   Writing objects:  93%
+ (41/44), 9.05 MiB | 632.00 KiB/s   Writing objects:  93%
+ (41/44), 9.42 MiB | 633.00 KiB/s   Writing objects:  95%
+ (42/44), 9.42 MiB | 633.00 KiB/s   Writing objects:  97%
+ (43/44), 9.80 MiB | 665.00 KiB/s   Writing objects: 100%
+ (44/44), 9.80 MiB | 665.00 KiB/s   Writing objects: 100%
+ (44/44), 9.99 MiB | 540.00 KiB/s, done.
+Total 44 (delta 6), reused 0 (delta 0)
 remote: Resolving deltas:   0%
  (0/6)[Kremote: Resolving deltas:  16%
  (1/6)[Kremote: Resolving deltas:  33%
