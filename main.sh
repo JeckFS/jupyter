@@ -110,8 +110,8 @@ for {set i 0} {$i < [expr 30*15]} {incr i} {
 # 预处理配置文件内容e  c
 foreach item $itemList {
     puts $item
-    set name [exec echo $item | cut -d ":" -f 2]
-    set kind [exec echo $item | cut -d ":" -f 3]
+    set name [exec echo $item | cut -d "+" -f 2]
+    set kind [exec echo $item | cut -d "+" -f 3]
     
     switch $kind {
         1 {
@@ -134,9 +134,9 @@ foreach item $itemList {
     }
     bind $pathName <1> {
         set item [%W cget -textvariable]
-        set cmd [exec echo $item | cut -d ":" -f 1]
-        set name [exec echo $item | cut -d ":" -f 2]
-        set kind [exec echo $item | cut -d ":" -f 3]
+        set cmd [exec echo $item | cut -d "+" -f 1]
+        set name [exec echo $item | cut -d "+" -f 2]
+        set kind [exec echo $item | cut -d "+" -f 3]
         
         switch $kind {
             1 {
