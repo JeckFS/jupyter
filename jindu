@@ -1,19 +1,20 @@
  'https://JeckFS@github.com': 
 Counting objects: 12, done.
 Delta compression using up to 8 threads.
-Compressing objects:   9%
- (1/11)   Compressing objects:  18%
- (2/11)   Compressing objects:  27%
- (3/11)   Compressing objects:  36%
- (4/11)   Compressing objects:  45%
- (5/11)   Compressing objects:  54%
- (6/11)   Compressing objects:  63%
- (7/11)   Compressing objects:  72%
- (8/11)   Compressing objects:  81%
- (9/11)   Compressing objects:  90%
- (10/11)   Compressing objects: 100%
- (11/11)   Compressing objects: 100%
- (11/11), done.
+Compressing objects:   8%
+ (1/12)   Compressing objects:  16%
+ (2/12)   Compressing objects:  25%
+ (3/12)   Compressing objects:  33%
+ (4/12)   Compressing objects:  41%
+ (5/12)   Compressing objects:  50%
+ (6/12)   Compressing objects:  58%
+ (7/12)   Compressing objects:  66%
+ (8/12)   Compressing objects:  75%
+ (9/12)   Compressing objects:  83%
+ (10/12)   Compressing objects:  91%
+ (11/12)   Compressing objects: 100%
+ (12/12)   Compressing objects: 100%
+ (12/12), done.
 Writing objects:   8%
  (1/12)   Writing objects:  16%
  (2/12)   Writing objects:  25%
@@ -26,12 +27,11 @@ Writing objects:   8%
  (10/12)   Writing objects:  91%
  (11/12)   Writing objects: 100%
  (12/12)   Writing objects: 100%
- (12/12), 672.46 KiB | 21.01 MiB/s, done.
-Total 12 (delta 3), reused 0 (delta 0)
+ (12/12), 171.98 KiB | 7.82 MiB/s, done.
+Total 12 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas:   0%
- (0/3)[Kremote: Resolving deltas:  33%
- (1/3)[Kremote: Resolving deltas:  66%
- (2/3)[Kremote: Resolving deltas: 100%
- (3/3)[Kremote: Resolving deltas: 100%
+ (0/2)[Kremote: Resolving deltas:  50%
+ (1/2)[Kremote: Resolving deltas: 100%
+ (2/2)[Kremote: Resolving deltas: 100%
 上传完毕！！！
 完美！！！
