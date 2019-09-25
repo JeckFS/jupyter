@@ -1,37 +1,40 @@
  'https://JeckFS@github.com': 
-Counting objects: 12, done.
+Counting objects: 13, done.
 Delta compression using up to 8 threads.
-Compressing objects:   8%
- (1/12)   Compressing objects:  16%
- (2/12)   Compressing objects:  25%
- (3/12)   Compressing objects:  33%
- (4/12)   Compressing objects:  41%
- (5/12)   Compressing objects:  50%
- (6/12)   Compressing objects:  58%
- (7/12)   Compressing objects:  66%
- (8/12)   Compressing objects:  75%
- (9/12)   Compressing objects:  83%
- (10/12)   Compressing objects:  91%
- (11/12)   Compressing objects: 100%
- (12/12)   Compressing objects: 100%
- (12/12), done.
-Writing objects:   8%
- (1/12)   Writing objects:  16%
- (2/12)   Writing objects:  25%
- (3/12)   Writing objects:  33%
- (4/12)   Writing objects:  41%
- (5/12)   Writing objects:  58%
- (7/12)   Writing objects:  66%
- (8/12)   Writing objects:  75%
- (9/12)   Writing objects:  83%
- (10/12)   Writing objects:  91%
- (11/12)   Writing objects: 100%
- (12/12)   Writing objects: 100%
- (12/12), 171.98 KiB | 7.82 MiB/s, done.
-Total 12 (delta 2), reused 0 (delta 0)
+Compressing objects:   7%
+ (1/13)   Compressing objects:  15%
+ (2/13)   Compressing objects:  23%
+ (3/13)   Compressing objects:  30%
+ (4/13)   Compressing objects:  38%
+ (5/13)   Compressing objects:  46%
+ (6/13)   Compressing objects:  53%
+ (7/13)   Compressing objects:  61%
+ (8/13)   Compressing objects:  69%
+ (9/13)   Compressing objects:  76%
+ (10/13)   Compressing objects:  84%
+ (11/13)   Compressing objects:  92%
+ (12/13)   Compressing objects: 100%
+ (13/13)   Compressing objects: 100%
+ (13/13), done.
+Writing objects:   7%
+ (1/13)   Writing objects:  15%
+ (2/13)   Writing objects:  23%
+ (3/13)   Writing objects:  38%
+ (5/13)   Writing objects:  53%
+ (7/13)   Writing objects:  61%
+ (8/13)   Writing objects:  69%
+ (9/13)   Writing objects:  76%
+ (10/13)   Writing objects:  84%
+ (11/13)   Writing objects:  92%
+ (12/13)   Writing objects: 100%
+ (13/13)   Writing objects: 100%
+ (13/13), 356.95 KiB | 15.52 MiB/s, done.
+Total 13 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas:   0%
- (0/2)[Kremote: Resolving deltas:  50%
- (1/2)[Kremote: Resolving deltas: 100%
- (2/2)[Kremote: Resolving deltas: 100%
+ (0/5)[Kremote: Resolving deltas:  20%
+ (1/5)[Kremote: Resolving deltas:  60%
+ (3/5)[Kremote: Resolving deltas:  80%
+ (4/5)[Kremote: Resolving deltas: 100%
+ (5/5)[Kremote: Resolving deltas: 100%
 上传完毕！！！
 完美！！！
