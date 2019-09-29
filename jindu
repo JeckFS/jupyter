@@ -1,38 +1,31 @@
  'https://JeckFS@github.com': 
-Counting objects: 13, done.
+Counting objects: 8, done.
 Delta compression using up to 8 threads.
-Compressing objects:   7%
- (1/13)   Compressing objects:  15%
- (2/13)   Compressing objects:  23%
- (3/13)   Compressing objects:  30%
- (4/13)   Compressing objects:  38%
- (5/13)   Compressing objects:  46%
- (6/13)   Compressing objects:  53%
- (7/13)   Compressing objects:  61%
- (8/13)   Compressing objects:  69%
- (9/13)   Compressing objects:  76%
- (10/13)   Compressing objects:  84%
- (11/13)   Compressing objects:  92%
- (12/13)   Compressing objects: 100%
- (13/13)   Compressing objects: 100%
- (13/13), done.
-Writing objects:   7%
- (1/13)   Writing objects:  15%
- (2/13)   Writing objects:  23%
- (3/13)   Writing objects:  38%
- (5/13)   Writing objects:  53%
- (7/13)   Writing objects:  61%
- (8/13)   Writing objects:  69%
- (9/13)   Writing objects:  76%
- (10/13)   Writing objects:  84%
- (11/13)   Writing objects:  92%
- (12/13)   Writing objects: 100%
- (13/13)   Writing objects: 100%
- (13/13), 356.95 KiB | 15.52 MiB/s, done.
-Total 13 (delta 5), reused 0 (delta 0)
+Compressing objects:  12%
+ (1/8)   Compressing objects:  25%
+ (2/8)   Compressing objects:  37%
+ (3/8)   Compressing objects:  50%
+ (4/8)   Compressing objects:  62%
+ (5/8)   Compressing objects:  75%
+ (6/8)   Compressing objects:  87%
+ (7/8)   Compressing objects: 100%
+ (8/8)   Compressing objects: 100%
+ (8/8), done.
+Writing objects:  12%
+ (1/8)   Writing objects:  25%
+ (2/8)   Writing objects:  37%
+ (3/8)   Writing objects:  50%
+ (4/8)   Writing objects:  62%
+ (5/8)   Writing objects:  75%
+ (6/8)   Writing objects:  87%
+ (7/8)   Writing objects: 100%
+ (8/8)   Writing objects: 100%
+ (8/8), 8.13 KiB | 4.06 MiB/s, done.
+Total 8 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas:   0%
  (0/5)[Kremote: Resolving deltas:  20%
- (1/5)[Kremote: Resolving deltas:  60%
+ (1/5)[Kremote: Resolving deltas:  40%
+ (2/5)[Kremote: Resolving deltas:  60%
  (3/5)[Kremote: Resolving deltas:  80%
  (4/5)[Kremote: Resolving deltas: 100%
  (5/5)[Kremote: Resolving deltas: 100%
