@@ -14,19 +14,17 @@ Compressing objects:  12%
 Writing objects:  12%
  (1/8)   Writing objects:  25%
  (2/8)   Writing objects:  37%
- (3/8)   Writing objects:  50%
- (4/8)   Writing objects:  62%
+ (3/8)   Writing objects:  62%
  (5/8)   Writing objects:  75%
  (6/8)   Writing objects:  87%
  (7/8)   Writing objects: 100%
  (8/8)   Writing objects: 100%
- (8/8), 8.13 KiB | 4.06 MiB/s, done.
+ (8/8), 43.53 KiB | 7.25 MiB/s, done.
 Total 8 (delta 5), reused 0 (delta 0)
 remote: Resolving deltas:   0%
  (0/5)[Kremote: Resolving deltas:  20%
  (1/5)[Kremote: Resolving deltas:  40%
- (2/5)[Kremote: Resolving deltas:  60%
- (3/5)[Kremote: Resolving deltas:  80%
+ (2/5)[Kremote: Resolving deltas:  80%
  (4/5)[Kremote: Resolving deltas: 100%
  (5/5)[Kremote: Resolving deltas: 100%
 上传完毕！！！

@@ -27,6 +27,14 @@ toplevel .tl -padx 1m -pady 1m
 wm overrideredirect .tl true
 wm withdraw .tl
 wm geometry .tl -$left+400
+
+# 定义笔窗口
+toplevel .pen -background "#ff0000"
+wm overrideredirect .pen true
+wm geometry .pen 15x15
+wm withdraw .pen
+                
+                
 # 定义输入框
 set path_ "/home/yfs/jupyter-dir/notebook/deep_learning/images"
 set paths [exec cat path]
@@ -110,8 +118,8 @@ for {set i 0} {$i < [expr 30*15]} {incr i} {
 # 预处理配置文件内容e  c
 foreach item $itemList {
     puts $item
-    set name [exec echo $item | cut -d ":" -f 2]
-    set kind [exec echo $item | cut -d ":" -f 3]
+    set name [exec echo $item | cut -d "+" -f 2]
+    set kind [exec echo $item | cut -d "+" -f 3]
     
     switch $kind {
         1 {
@@ -121,6 +129,9 @@ foreach item $itemList {
             set pathName .service.b$i
         }
         3 {
+            set pathName .other.b$i
+        }
+        4 {
             set pathName .other.b$i
         }
     }
@@ -134,9 +145,9 @@ foreach item $itemList {
     }
     bind $pathName <1> {
         set item [%W cget -textvariable]
-        set cmd [exec echo $item | cut -d ":" -f 1]
-        set name [exec echo $item | cut -d ":" -f 2]
-        set kind [exec echo $item | cut -d ":" -f 3]
+        set cmd [exec echo $item | cut -d "+" -f 1]
+        set name [exec echo $item | cut -d "+" -f 2]
+        set kind [exec echo $item | cut -d "+" -f 3]
         
         switch $kind {
             1 {
@@ -167,11 +178,32 @@ foreach item $itemList {
                 puts "finished!!!\n\n"
                 
             }
+            4 {
+                wm deiconify .pen
+                set done 0
+                
+                bind .pen <Button-1> {
+                    # 唤醒笔窗口
+                    wm withdraw .pen
+                    set done 1
+                }
+                
+                while {!$done} {
+                    set loc [exec xdotool getmouselocation]
+                    set locX [exec echo $loc | cut -d " " -f 1 | cut -d ":" -f 2]
+                    set locY [exec echo $loc | cut -d " " -f 2 | cut -d ":" -f 2]
+                    puts $locX,$locY
+                    wm geometry .pen +$locX+$locY
+                    update idletasks
+                }
+                puts "finish!"
+                
+                
+            }
         }
     }
     incr i
 }
-
 
 
 
