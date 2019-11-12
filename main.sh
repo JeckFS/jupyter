@@ -27,6 +27,14 @@ toplevel .tl -padx 1m -pady 1m
 wm overrideredirect .tl true
 wm withdraw .tl
 wm geometry .tl -$left+400
+
+# 定义笔窗口
+toplevel .pen -background "#ff0000"
+wm overrideredirect .pen true
+wm geometry .pen 15x15
+wm withdraw .pen
+                
+                
 # 定义输入框
 set path_ "/home/yfs/jupyter-dir/notebook/deep_learning/images"
 set paths [exec cat path]
@@ -123,6 +131,9 @@ foreach item $itemList {
         3 {
             set pathName .other.b$i
         }
+        4 {
+            set pathName .other.b$i
+        }
     }
     
     button $pathName -text $name -textvariable $item -width 13
@@ -167,11 +178,32 @@ foreach item $itemList {
                 puts "finished!!!\n\n"
                 
             }
+            4 {
+                wm deiconify .pen
+                set done 0
+                
+                bind .pen <Button-1> {
+                    # 唤醒笔窗口
+                    wm withdraw .pen
+                    set done 1
+                }
+                
+                while {!$done} {
+                    set loc [exec xdotool getmouselocation]
+                    set locX [exec echo $loc | cut -d " " -f 1 | cut -d ":" -f 2]
+                    set locY [exec echo $loc | cut -d " " -f 2 | cut -d ":" -f 2]
+                    wm geometry .pen +$locX+$locY
+                    after 10
+                    update 
+                }
+                puts "finish!"
+                
+                
+            }
         }
     }
     incr i
 }
-
 
 
 

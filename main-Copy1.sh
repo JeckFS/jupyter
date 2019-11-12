@@ -192,9 +192,9 @@ foreach item $itemList {
                     set loc [exec xdotool getmouselocation]
                     set locX [exec echo $loc | cut -d " " -f 1 | cut -d ":" -f 2]
                     set locY [exec echo $loc | cut -d " " -f 2 | cut -d ":" -f 2]
-                    puts $locX,$locY
                     wm geometry .pen +$locX+$locY
-                    update idletasks
+                    after 10
+                    update 
                 }
                 puts "finish!"
                 

@@ -1,31 +1,47 @@
  'https://JeckFS@github.com': 
-Counting objects: 8, done.
+对象计数中: 13, 完成.
 Delta compression using up to 8 threads.
-Compressing objects:  12%
- (1/8)   Compressing objects:  25%
- (2/8)   Compressing objects:  37%
- (3/8)   Compressing objects:  50%
- (4/8)   Compressing objects:  62%
- (5/8)   Compressing objects:  75%
- (6/8)   Compressing objects:  87%
- (7/8)   Compressing objects: 100%
- (8/8)   Compressing objects: 100%
- (8/8), done.
-Writing objects:  12%
- (1/8)   Writing objects:  25%
- (2/8)   Writing objects:  37%
- (3/8)   Writing objects:  62%
- (5/8)   Writing objects:  75%
- (6/8)   Writing objects:  87%
- (7/8)   Writing objects: 100%
- (8/8)   Writing objects: 100%
- (8/8), 43.53 KiB | 7.25 MiB/s, done.
-Total 8 (delta 5), reused 0 (delta 0)
+压缩对象中:   7%
+ (1/13)   压缩对象中:  15%
+ (2/13)   压缩对象中:  23%
+ (3/13)   压缩对象中:  30%
+ (4/13)   压缩对象中:  38%
+ (5/13)   压缩对象中:  46%
+ (6/13)   压缩对象中:  53%
+ (7/13)   压缩对象中:  61%
+ (8/13)   压缩对象中:  69%
+ (9/13)   压缩对象中:  76%
+ (10/13)   压缩对象中:  84%
+ (11/13)   压缩对象中:  92%
+ (12/13)   压缩对象中: 100%
+ (13/13)   压缩对象中: 100%
+ (13/13), 完成.
+写入对象中:   7%
+ (1/13)   写入对象中:  15%
+ (2/13)   写入对象中:  23%
+ (3/13)   写入对象中:  30%
+ (4/13)   写入对象中:  38%
+ (5/13)   写入对象中:  46%
+ (6/13)   写入对象中:  53%
+ (7/13)   写入对象中:  61%
+ (8/13)   写入对象中:  69%
+ (9/13)   写入对象中:  76%
+ (10/13)   写入对象中:  84%
+ (11/13)   写入对象中:  92%
+ (12/13)   写入对象中: 100%
+ (13/13)   写入对象中: 100%
+ (13/13), 38.44 KiB | 1.42 MiB/s, 完成.
+Total 13 (delta 9), reused 0 (delta 0)
 remote: Resolving deltas:   0%
- (0/5)[Kremote: Resolving deltas:  20%
- (1/5)[Kremote: Resolving deltas:  40%
- (2/5)[Kremote: Resolving deltas:  80%
- (4/5)[Kremote: Resolving deltas: 100%
- (5/5)[Kremote: Resolving deltas: 100%
+ (0/9)[Kremote: Resolving deltas:  11%
+ (1/9)[Kremote: Resolving deltas:  22%
+ (2/9)[Kremote: Resolving deltas:  33%
+ (3/9)[Kremote: Resolving deltas:  44%
+ (4/9)[Kremote: Resolving deltas:  55%
+ (5/9)[Kremote: Resolving deltas:  66%
+ (6/9)[Kremote: Resolving deltas:  77%
+ (7/9)[Kremote: Resolving deltas:  88%
+ (8/9)[Kremote: Resolving deltas: 100%
+ (9/9)[Kremote: Resolving deltas: 100%
 上传完毕！！！
 完美！！！
